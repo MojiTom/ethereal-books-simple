@@ -1,0 +1,42 @@
+{
+  "name": "etherealbookssite",
+  "version": "1.0.0",
+  "description": "This is a website for the fictional Ethereal Book Exchange and Java Joint",
+  "main": "index.html",
+  "devDependencies": {
+    "copyfiles": "^2.2.0",
+    "imagemin-cli": "^5.1.0",
+    "lite-server": "^2.5.4",
+    "node-sass": "^4.14.1",
+    "onchange": "^7.0.0",
+    "parallelshell": "3.0.1",
+    "rimraf": "^3.0.2",
+    "usemin-cli": "^0.6.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+  "scripts": {
+    "lite": "lite-server",
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MojiTom/ethereal-books-simple.git"
+  },
+  "keywords": [
+    "portfolio",
+    "bootstrap"
+  ],
+  "author": "Tom Hoyt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MojiTom/ethereal-books-simple/issues"
+  },
+  "homepage": "https://github.com/MojiTom/ethereal-books-simple#readme"
+}
