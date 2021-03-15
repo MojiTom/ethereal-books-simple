@@ -26,6 +26,14 @@ header {
     }
 }
 
+h3 {
+    text-align: center;
+}
+
+.above-header {
+    margin: 0;
+}
+
 .site-footer {
     /* background-image: linear-gradient($color-pale, white); */
     background-color: $color-dark;
