@@ -16,8 +16,13 @@ h1, h2, h3 {
     font-family: $header-font;
 }
 
+h1 {
+    font-size: 5vmax;
+}
+
 h2 {
     color: $color-primary;
+    font-size: 6vmax;
 }
 
 header {
@@ -30,18 +35,20 @@ h3 {
     text-align: center;
 }
 
+h5 {
+    color: $color-primary;
+}
+
 .above-header {
     margin: 0;
 }
 
 .site-footer {
-    /* background-image: linear-gradient($color-pale, white); */
     background-color: $color-dark;
     padding: 20px 0; 
 }
 
 .jumbotron {
-    /*background-image: linear-gradient(to right, $color-secondary, $color-primary, $color-dark);*/
     background-color: $color-pale;
     padding: 30px;
     margin: 0;
@@ -50,7 +57,6 @@ h3 {
 
 .row-content {
     padding: 50px 0;
-    border-bottom: 1px ridge;
     min-height: 200px;
 }
 
