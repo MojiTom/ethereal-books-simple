@@ -40,6 +40,13 @@ h5 {
     color: $color-primary;
 }
 
+footer {
+    button {
+        background-color: $color-pale; 
+        color: white;
+    }
+}
+
 .above-header {
     margin: 0;
 }

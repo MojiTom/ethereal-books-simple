@@ -2,7 +2,7 @@ $(function() {
 
     $(".carousel").carousel( { interval: 3000, pause: "false" });
 
-    $("#carouselButton").click(function(){
+    $("#carouselButton").on("click", function() {
         if ($("#carouselButton").children("i").hasClass("fa-pause")) {
             $(".carousel").carousel("pause");
             $("#carouselButton").children("i").removeClass("fa-pause");
@@ -16,12 +16,8 @@ $(function() {
 
     // The class answer used .modal("show"), but it works w/o show as well: .modal()
 
-    $("#reserveButton").on("click", function() {
-        $("#reserveModal").modal("show");
-    });
-
-    $("#loginButton").on("click", function() {
-        $("#loginModal").modal("show");
+    $("#subscribeButton").on("click", function() {
+        $("#subscribeModal").modal("show");
     });
 
    });
