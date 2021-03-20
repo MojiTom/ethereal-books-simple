@@ -22,6 +22,10 @@ h3 {
 h5 {
   color: #d0e64b; }
 
+footer button {
+  background-color: #33a6b2;
+  color: white; }
+
 .above-header {
   margin: 0; }
 
