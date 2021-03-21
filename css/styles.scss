@@ -10,6 +10,11 @@ $header-font: "Tangerine", serif;
 
 body {
     font-family: $body-font;
+    background-color: $color-mid;
+}
+
+body > .container {
+    background-color: white;
 }
 
 h1, h2, h3 {
@@ -90,4 +95,8 @@ a, a:hover {
     right: 0;
     bottom: 0;
     z-index: 100;
+}
+
+.bg-blend-in {
+    background-color: $color-mid;
 }
